@@ -55,6 +55,13 @@ $(document).ready(function(){
   }
   birdJqueryUiOneHand('.uiOneHand-single','.uiSlider-element','.uiSlider-target',2);
 });
+
+
+$(".custom-scroll").mCustomScrollbar({
+  axis:"y",
+  theme:"light-3",
+  advanced:{autoExpandHorizontalScroll:true}
+});
   
 })
 
